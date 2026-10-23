@@ -115,7 +115,5 @@ ai_logs/         AI session log (readable .md + unedited .raw.jsonl)
 
 ## AI use
 
-GitHub Copilot wrote most of the code from `copilot-instructions.md`. Claude was used for the
-design discussion, for writing the Copilot prompts, and for diagnosing and fixing the
-blind-set failures. The session is in `ai_logs/`. During development the project was called
+GitHub Copilot wrote most of the code from `copilot-instructions.md`. The session is in `ai_logs/`. During development the project was called
 `bsparse` and nested one folder deeper, so paths in the log differ from this layout.
