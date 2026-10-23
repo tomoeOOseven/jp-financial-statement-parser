@@ -1,0 +1,10 @@
+[project]
+name = "fsparse"
+version = "0.1.0"
+description = "Japanese financial-statement pages to validated tables"
+requires-python = ">=3.11"
+dependencies = ["pdfplumber>=0.11,<0.12"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
