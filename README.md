@@ -112,8 +112,3 @@ run_demo.py      parse one page, print checks and error-detection rates
 docs/copilot-instructions.md   instructions given to the coding assistant
 ai_logs/         AI session log (readable .md + unedited .raw.jsonl)
 ```
-
-## AI use
-
-GitHub Copilot wrote most of the code from `copilot-instructions.md`. The session is in `ai_logs/`. During development the project was called
-`bsparse` and nested one folder deeper, so paths in the log differ from this layout.
